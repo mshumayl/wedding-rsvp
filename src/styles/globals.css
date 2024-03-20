@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "allison";
+    src: url("../../public/fonts/Allison-Regular.ttf")
+}
+
+@font-face {
+    font-family: "cormorant";
+    src: url("../../public/fonts/Cormorant.ttf")
+}
+
+@font-face {
+    font-family: "cormorant-italic";
+    src: url("../../public/fonts/Cormorant-Italic.ttf")
+}
+
+@font-face {
+    font-family: "nastaliq";
+    src: url("../../public/fonts/Nastaliq.ttf")
+}
+
+@layer utilities {
+    .animation-delay-2000 {
+      animation-delay: 2s;
+    }
+    .animation-delay-4000 {
+      animation-delay: 4s;
+    }
+  }
+  
